@@ -1,0 +1,38 @@
+.main-wrapper {
+	height: 100vh;  
+}
+.input-field {
+	font-size: medium;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	&--content{
+		font-weight: bold;
+	}
+	&--comment{
+		border-radius: 4px;
+	}
+}
+
+.input-container {
+	background-color: rgb(234, 235, 239);
+}
+
+.feed-container {
+	background-color: rgb(234, 235, 239);
+	border-radius: 4px;
+}
+
+.content-container {
+	border-radius: 4px;
+	position: relative;
+	background-color: whitesmoke;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.edit-btn {
+	font-size: small;
+	font-weight: bold;
+}
+.comment-item {
+	border-radius: 4px;
+	background-color: whitesmoke;
+}
